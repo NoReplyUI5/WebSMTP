@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSMTP Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Send Email With WebSMTP</h1>
+        <form action="/send-email" method="POST">
+            <label for="fromName">From Name:</label>
+            <input type="text" id="fromName" name="fromName" required>
+
+            <label for="fromEmail">From Email:</label>
+            <input type="email" id="fromEmail" name="fromEmail" required>
+
+            <label for="host">SMTP Host:</label>
+            <input type="text" id="host" name="host" required>
+
+            <label for="port">SMTP Port:</label>
+            <input type="number" id="port" name="port" required>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="to">To Email:</label>
+            <input type="email" id="to" name="to" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="text">Email Body:</label>
+            <textarea id="text" name="text" rows="4" required></textarea>
+
+            <button type="submit">Send Test Email</button>
+        </form>
+    </div>
+
+</body>
+</html>

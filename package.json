@@ -1,0 +1,21 @@
+{
+  "name": "WebSMTP",
+  "version": "1.0.0",
+  "description": "A web-based SMTP tool built with Express and Nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "NoReplyUI5",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NoReplyUI5/WebSMTP"
+  },
+  "homepage": "https://doc.cwings.me"
+}
